@@ -31,7 +31,7 @@ namespace NetflixRouletteApp
             get { return (bool)GetValue(IsSearchingProperty); }
             set { SetValue(IsSearchingProperty, value); }
         }
-
+        
         public MoviesPage()
         {
             BindingContext = this;
